@@ -1,0 +1,86 @@
+
+body {
+    background-color: green;
+}
+#card {
+    height: 350px;
+    background: white;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    width: 220px;
+    margin-left: 13px;
+}
+h1 {
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Cardo', serif;
+}
+legend {
+    color: white;
+}
+
+.spade::before {
+    content: '\2660';
+    font-size: 80px;
+    display: block;
+    text-align: left;
+
+}
+.spade::after {
+    content: '\2660';
+    font-size: 80px;
+    transform: rotate(180deg) scaleX(-1);
+    display: block;
+    text-align: right;
+   
+}
+.clubs::before {
+    content: '\2663';
+    font-size: 80px;
+    display: block;
+    text-align: left;
+
+}
+.clubs::after {
+    content: '\2663';
+    font-size: 80px;
+    transform: rotate(180deg) scaleX(-1);
+    display: block;
+    text-align: right;
+   
+}
+.heart::before {
+    content: '\2665';
+    font-size: 80px;
+    display: block;
+    text-align: left;
+    color: red;
+
+}
+.heart::after {
+    content: '\2665';
+    font-size: 80px;
+    transform: rotate(180deg) scaleX(-1);
+    display: block;
+    text-align: right;
+    color: red;
+}
+.diamond::before {
+    content: '\2666';
+    font-size: 80px;
+    display: block;
+    text-align: left;
+    color: red;
+
+}
+.diamond::after {
+    content: '\2666';
+    font-size: 80px;
+    transform: rotate(180deg) scaleX(-1);
+    display: block;
+    text-align: right;
+    color: red;
+   
+}
